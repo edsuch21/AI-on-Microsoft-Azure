@@ -37,4 +37,4 @@ W przypadku słabych wyników można ponownie trenować model dla źle przenaliz
 
 LUIS można wykorzystać do w lobby hotelowym jako room service. Można by prawdopodobnie też wykorzystać w aplikacji do zamawiania taksówek, gdzie można podać miejsce i godzinę odbioru oraz liczbę pasażerów. Można też wykorzystać przy różnego rozdaju transakcjach sprzedaży.
 
-! [cennikUL] (https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikLU.png)
+![cennikUL](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikLU.png)
