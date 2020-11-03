@@ -55,4 +55,5 @@ Można też przetestować czy działa kolejka wchodząc do Storage Account i tam
 
 Odpowiednia kalibracja ustawień w JSON w FA oraz zmiana kodu umożliwa nawet podział wiadomości na kategorie: pozytywne, neutralne, negatywne i umieszczenie ich do 3 osobnych kolejek.
 
+![cennikTA](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
 
