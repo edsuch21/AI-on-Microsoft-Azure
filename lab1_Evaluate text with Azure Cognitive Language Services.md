@@ -55,5 +55,7 @@ Można też przetestować czy działa kolejka wchodząc do Storage Account i tam
 
 Odpowiednia kalibracja ustawień w JSON w FA oraz zmiana kodu umożliwa nawet podział wiadomości na kategorie: pozytywne, neutralne, negatywne i umieszczenie ich do 3 osobnych kolejek.
 
+Zastosowania TA w analizie sentymentu mogą być przykładowo do oceny recenzji książek lub filmów na jakimś portalu. Analiza charateru tekstu może służyć do badania reportażów czy wypowiedzi autora są stronnicze czy nie. Badanie języka w jakim pisany jest tekst można wykorzytsać do autmatycznego tłumaczenia z dowolnego języka. Wyszukiwanie słów kluczowych pozwoli na łatwe porządkowanie dużych zbiorów tekstów po treści a nie tytule itp.
+
 ![cennikTA](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
 
