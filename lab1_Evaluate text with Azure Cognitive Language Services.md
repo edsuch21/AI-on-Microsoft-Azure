@@ -4,7 +4,7 @@
 W tej częsci poznano usługę Content Moderator, która służy do analizy tekstu i może działać w trzech wariantach:
 - wykrywanie przekleństw
 - klasyfikacja testów niewłaściwych
-** użycie słownictwa z zakresu seksulanego
-** nieodpowiednie propozycje o kontekście seksualnym
-** obraza drugiego człowieka
+  * użycie słownictwa z zakresu seksulanego
+  * nieodpowiednie propozycje o kontekście seksualnym
+  * obraza drugiego człowieka
 - ochrona danych prywatnych (PII)
