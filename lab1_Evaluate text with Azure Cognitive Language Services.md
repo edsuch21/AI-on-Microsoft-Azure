@@ -14,3 +14,4 @@ W przypadku wykrwania przekleństw sprawdzane jest z listą czy jakiekolwiek sł
 Klasyfikacja tekstów niewłaściwych określa prawdopodobieństwo czy tekst można zklasyfikować do każdej z wyżej wyminionych klas i po przekroczeniu pewnej wartości progowej zwracana jest informacja, że trzeba zweryfikować tekst ręcznie i pokazane są prawdopodobieństwa klasyfikacji każdej z klas.
 
 W przypadku ochrony danych prywatych jeśli jakies PII zostanie wykryte zostaje utworzony JSON, w którym będzie podana kategoria użycia danych prywatnych jak np. adres email, adres zamieszkania czy numer telefonu oraz fragment tekstu, który został sklasyfikwoany do jednej z tych kategorii.
+
