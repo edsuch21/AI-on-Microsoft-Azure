@@ -38,3 +38,21 @@ W przypadku słabych wyników można ponownie trenować model dla źle przenaliz
 LUIS można wykorzystać do w lobby hotelowym jako room service. Można by prawdopodobnie też wykorzystać w aplikacji do zamawiania taksówek, gdzie można podać miejsce i godzinę odbioru oraz liczbę pasażerów. Można też wykorzystać przy różnego rozdaju transakcjach sprzedaży.
 
 ![cennikUL](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikLU.png)
+
+## 3. Discover sentiment in text with the Text Analytics API
+Text Analytics API jest to rodzaj Cognitive Service, czyli różnego rodzaju wytrenowanych modeli do realizacji różnych zadań na wysokim poziomie. W tym wypadku służy on do analizy tekstu. W przerobionym ćwiczniu pokazane było zastosowanie wariantu z analizą sentymentu.
+
+Należy storzyć obiekt Text Analytics w wybranym resource group. Następnie można skorzystać z gotowego endpointu https://eastus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0 i wybrać w pasku po lewej Sentiment. Należy następnie wybrać lokalizację wcześniej stworzonego RG i podać klucz z Text Analytics.
+
+Teraz można analizować z pliku JSON kilka tekstów jednoczesnie w kliku różych językach i po automatycznym przeranalizowaniu zwracany jest JSON z charakterystycznym dla danego tesktu id oraz wynikiem z przedziału <0, 1>, gdzie 0 to tekst negatywny, a 1 to pozytywny (testy neutrale mają +-0.5).
+
+Jak widać za pomocą Text Analytics można też wykrywać język w jakim dany tekst jest napisany, czy szukać kluczowych słów, lub parametryzować wypowiedzi jak w LUIS.
+
+W tym labolatorium pozanao też jak połączyć Function App, Azure Queue Storage i Text Analytics API by zastosować to do realnych potrzeb z którymi może mierzyć się start-up. Po stworzeniu FA należało stworzyć funckję Azure Queue Storage trigger. Po wporwadzeniu kilku wartości w ustawieniach można już utworzyć funckję i ją przetesować za pomocą przycisku Run. Kolejnym korkiem jest edycja kodu JavaScript tak by dołączyć działanie Text Analytics. W tym kodzie definijuemy że wejściem do analizy sentymentu jest to co jest w kolejce wywoływane przez funkcję. Wynik analizy jest zapisywany do logów.
+
+Działanie tego systemu można przetestować za pomocą przycisku "Test" w funkcjach w Funcjtion App. 
+Można też przetestować czy działa kolejka wchodząc do Storage Account i tam tworząc nową widaomość i dodając ją do kolejki. Po pewnym czasie automatycznie następuje analiza wiadomości.
+
+Odpowiednia kalibracja ustawień w JSON w FA oraz zmiana kodu umożliwa nawet podział wiadomości na kategorie: pozytywne, neutralne, negatywne i umieszczenie ich do 3 osobnych kolejek.
+
+
