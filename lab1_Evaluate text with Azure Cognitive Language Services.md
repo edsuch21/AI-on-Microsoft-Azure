@@ -16,3 +16,7 @@ Klasyfikacja tekstów niewłaściwych określa prawdopodobieństwo czy tekst mo�
 W przypadku ochrony danych prywatych jeśli jakies PII zostanie wykryte zostaje utworzony JSON, w którym będzie podana kategoria użycia danych prywatnych jak np. adres email, adres zamieszkania czy numer telefonu oraz fragment tekstu, który został sklasyfikwoany do jednej z tych kategorii.
 
 ![cennik Content Moderator](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/pricing_Content%20Moderator.png "cenik CM")
+
+W jakich sytuacjach można użyć serwisu? Można np. kontrolować treści postów i komentarzy na jakimś forum/blogu i usuwać niewłaściwe wiadomości. Właściwość ochrony danych prywatych można wykorzystać do blokowania publikowania tych informacji w strefach publicznych platformy, które każdy anonimowy użytkownik może przeglądać.
+
+Aby użyć tego serwisu należy do wybranego resource group dodać Content Moderator, a następnie przestować jego działanie na stornie [Content Moderator - Moderate] (https://westus.dev.cognitive.microsoft.com/docs/services/57cf753a3f9b070c105bd2c1/operations/57cf753a3f9b070868a1f66f/console). Wystarczy znaznaczyć co się chce w tekście wpisywanym w oknie poniżej wyszukać oraz podać klucz do stowrzonego wczęsniej serwisu Content Moderator.
