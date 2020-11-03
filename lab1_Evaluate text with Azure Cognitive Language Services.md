@@ -15,4 +15,4 @@ Klasyfikacja tekstów niewłaściwych określa prawdopodobieństwo czy tekst mo�
 
 W przypadku ochrony danych prywatych jeśli jakies PII zostanie wykryte zostaje utworzony JSON, w którym będzie podana kategoria użycia danych prywatnych jak np. adres email, adres zamieszkania czy numer telefonu oraz fragment tekstu, który został sklasyfikwoany do jednej z tych kategorii.
 
-![cennik Content Moderator(/AI-on-Microsoft-Azure/pricing_Content Moderator.png)]
+![cennik Content Moderator](/AI-on-Microsoft-Azure/pricing_Content Moderator.png)
