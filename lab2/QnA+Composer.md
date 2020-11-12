@@ -35,6 +35,10 @@ Koszty Bota:
 
 ![CennikBota](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Bota.png)
 
+### 1.3 Use case
+
+Takiego bota można użyć w informacji turystycznej w biurze podróży na dowolnej stronie internetowej posiadającej czat, który pyta jak możemy ci pomóc. Często taki czat na stronie będzie pomagał korzytsać z nowoczesnego produktu o skomplikowanym działaniu lub będzie to czast doradzający przy zakupach.
+
 ## 2.  Create a Bot with the Bot Framework Composer
 
 ### 2.1 Opis
