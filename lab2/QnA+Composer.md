@@ -8,7 +8,7 @@ Aby zabrać się za pracę z QnA service trzeba najpierw stworzyć workspace na 
 Kolejnym krokiem jest stworzenie Cognitive Service na Azure do usługi QnA. Gdy ten krok zostanie zrealizowany następuje proces tworzenia bazy wiedzy. W przypadku laboratorium skorzystano z gotowej bazy, która odpowiadała na pytania związane z informacjami jakie można otrzymać od agencji tursytycznej Margie's Travel ale również jakieś pytania niezwiązane z pyatniem o podróże. Dodałem własne pytanie "Hello" i "Hi" oraz odpiwedź na nie "Hello".
 Jednym kliknięciem został wytrenowany serwis i następnie przetestowany przeze mnie co prezentuje poniższe zdjęcie. 
 
-ZDJĘCIE
+![cennikTA](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/)
 
 Następnym krokiem jest udostępnienie serwisu i przesłanie go do nowostworzonego bota. Po szybkim stworzeniu bota następuje jego test jak na zdjęciu poniżej.
 
@@ -25,15 +25,16 @@ ZDJĘCIE
 Za Cogintive Services do QnA płaci się według poniższego cennika:
 
 
-ZDJECIE
+![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Cognitive_Service_QnA_maker.png)
 
 Koszty VM do obilczeń w Machine Learing Studio:
 
-ZDJECIE
+![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_jednostki_obilczeniowej.png)
 
 Koszty Bota:
 
-ZDJECIE
+![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Bota.png)
+
 
 
 ## 2.  Create a Bot with the Bot Framework Composer
