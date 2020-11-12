@@ -25,15 +25,15 @@ ZDJĘCIE
 Za Cogintive Services do QnA płaci się według poniższego cennika:
 
 
-![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Cognitive_Service_QnA_maker.png)
+![CennikCS](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Cognitive_Service_QnA_maker.png)
 
 Koszty VM do obilczeń w Machine Learing Studio:
 
-![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_jednostki_obilczeniowej.png)
+![CennikJO](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_jednostki_obilczeniowej.png)
 
 Koszty Bota:
 
-![](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Bota.png)
+![CennikBota](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Bota.png)
 
 
 
@@ -41,6 +41,6 @@ Koszty Bota:
 
 ### 2.1 Opis
 
-![cennikTA](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
+![CennikBota](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
 
 
