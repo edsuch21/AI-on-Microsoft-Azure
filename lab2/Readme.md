@@ -8,32 +8,32 @@ Aby zabrać się za pracę z QnA service trzeba najpierw stworzyć workspace na 
 Kolejnym krokiem jest stworzenie Cognitive Service na Azure do usługi QnA. Gdy ten krok zostanie zrealizowany następuje proces tworzenia bazy wiedzy. W przypadku laboratorium skorzystano z gotowej bazy, która odpowiadała na pytania związane z informacjami jakie można otrzymać od agencji tursytycznej Margie's Travel ale również jakieś pytania niezwiązane z pyatniem o podróże. Dodałem własne pytanie "Hello" i "Hi" oraz odpiwedź na nie "Hello".
 Jednym kliknięciem został wytrenowany serwis i następnie przetestowany przeze mnie co prezentuje poniższe zdjęcie. 
 
-![TestSerwsu](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/TestSerwisu.png)
+![TestSerwsu](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/TestSerwisu.png)
 
 Następnym krokiem jest udostępnienie serwisu i przesłanie go do nowostworzonego bota. Po szybkim stworzeniu bota następuje jego test jak na zdjęciu poniżej.
 
-![TestBota](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/edit/main/lab2/TestBota.png)
+![TestBota](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/main/lab2/TestBota.png)
 
 
 Ostatnim korkiem jest uruchomienie bota na stronie internetwej, co następuje przez prostą komendę html korzystającą ze specjalnego klucza dostępu do bota, który jest dostępny w zakładce Channel w Web App Bot.
 Efektem laboratorium jest strona internetowa działająca jak na zdjęciu poniżej.
 
-![TestStrony](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/edit/main/lab2/TestStrony.png)
+![TestStrony](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/main/lab2/TestStrony.png)
 
 ### 1.2 Cennik
 
 Za Cogintive Services do QnA płaci się według poniższego cennika:
 
 
-![CennikCS](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Cognitive_Service_QnA_maker.png)
+![CennikCS](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/Cennik_Cognitive_Service_QnA_maker.png)
 
 Koszty VM do obilczeń w Machine Learing Studio:
 
-![CennikJO](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_jednostki_obilczeniowej.png)
+![CennikJO](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/Cennik_jednostki_obilczeniowej.png)
 
 Koszty Bota:
 
-![CennikBota](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab2/Cennik_Bota.png)
+![CennikBota](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/Cennik_Bota.png)
 
 ### 1.3 Use case
 
@@ -55,7 +55,7 @@ Emulator pokazuje jakie operacje są wykonywane "pod spodem" podczas działania 
 
 Samo tworzenie bota w Composerze nic nie kosztuje. Nawet nie trzeba mieć konta na Azure. Płaci się jedynie za LUIS, jeśli się z niego korzysta. Cennik Luisa poniżej:
 
-![CennikLUIS](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab1/cennikLU.png)
+![CennikLUIS](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab1/cennikLU.png)
 
 ### 2.3 Use Case
 
