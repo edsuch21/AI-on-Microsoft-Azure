@@ -8,7 +8,13 @@ Azure oferuje różne odmiany tego samego języka np. Angielski amerykański, br
 W przypadku zamiany mowy na tekst najlepiej jakby nagranie było w formacie .wav
 W przypadku tłumaczeń można jednocześnie tłumaczyć na kilka wybranych języków.
 
-## 2. Cennik
+## 2. Use case.
+
+TŁuamcza można wykorzytsać do tłumaczenia całych plików/ długich tekstów, które wymagają nie rozumienia poszczególnych słów ale też i poprawności tłumaczenia cełych zdań.
+Zamianę mowy na tekst można wykorzystać do atomatycznego generoania notatek np. dla studentów podczas wykładu lub dla osób z deformacjami dłoni, którzy mają problemy z pisaniem.
+Zamianę tekstu na mowę może posłużyć osobom niewidomym zwiększyć dostęp do zgłębiania literatury lub do pomocy nauki czytania analfabetom lub małym dzieciom.
+
+## 3. Cennik
 
 Koszt usługi Speech:
 
