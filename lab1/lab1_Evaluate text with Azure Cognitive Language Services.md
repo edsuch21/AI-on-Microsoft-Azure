@@ -37,7 +37,7 @@ W przypadku słabych wyników można ponownie trenować model dla źle przenaliz
 
 LUIS można wykorzystać do w lobby hotelowym jako room service. Można by prawdopodobnie też wykorzystać w aplikacji do zamawiania taksówek, gdzie można podać miejsce i godzinę odbioru oraz liczbę pasażerów. Można też wykorzystać przy różnego rozdaju transakcjach sprzedaży.
 
-![cennikUL](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikLU.png)
+![cennikLU](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/lab1/cennikLU.png)
 
 ## 3. Discover sentiment in text with the Text Analytics API
 Text Analytics API jest to rodzaj Cognitive Service, czyli różnego rodzaju wytrenowanych modeli do realizacji różnych zadań na wysokim poziomie. W tym wypadku służy on do analizy tekstu. W przerobionym ćwiczniu pokazane było zastosowanie wariantu z analizą sentymentu.
@@ -57,5 +57,5 @@ Odpowiednia kalibracja ustawień w JSON w FA oraz zmiana kodu umożliwa nawet po
 
 Zastosowania TA w analizie sentymentu mogą być przykładowo do oceny recenzji książek lub filmów na jakimś portalu. Analiza charateru tekstu może służyć do badania reportażów czy wypowiedzi autora są stronnicze czy nie. Badanie języka w jakim pisany jest tekst można wykorzytsać do autmatycznego tłumaczenia z dowolnego języka. Wyszukiwanie słów kluczowych pozwoli na łatwe porządkowanie dużych zbiorów tekstów po treści a nie tytule itp.
 
-![cennikTA](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
+![cennikTA](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/lab1/cennikTA.png)
 
