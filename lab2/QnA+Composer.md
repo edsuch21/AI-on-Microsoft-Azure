@@ -43,6 +43,22 @@ Takiego bota można użyć w informacji turystycznej w biurze podróży na dowol
 
 ### 2.1 Opis
 
-![CennikBota](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/cennikTA.png)
+Composer to program umożliwiający budowanie grafu sekwencji działania bota. W pierwszej części pokazano prostego bota, który pyta o imię i wita użytkownika wyświetlając jego imię. Pytanie i odpowiedź to osobne bloki w grafie występujące po sobie. Narzędzie to wykorzytsuje jednak silne narzędzia i bardzo łatwo można też tworzyć bardziej skomplikowane zadania jak np. opisywanie pogody na podstawie podanego kodu pocztowego z USA.
+W drugiej części pokazano jak można wykorzystać metody http (w tym wypadku metodę get) i przy pomocy klucza api otrzymać informacje z odpowiedniego serwera. Pokazano jak działają wyzwalacze, które powodują przejście do nowego grafu. Korzytano z triggerów: weather, cancel i help. Można było w ten sposób przejść do grafu sprawdzającego pogodę, grafu pomocy lub grafu kończącego pracę bota.
+W ćwiczeniu również pokazano zasadę dziąłania Language Generation Library, które umożliwia rożnorodność wypowiedzi w takiej samej sytucaji (przez to robot wydaje się być bardziej ludzki) oraz warunkowe odpowiedzi. np. jeśli pogoda == pada deszcz, to można wyświetlić "lepiej weź parasol, bo na dworze pada ;)".
+Ciekaawą opcją jest też możliwość przyciskania guzików na czacie. Zamiast wpisywać "help" można poprostu kliknąć na niego. Jak również bot może odpowiadać za pomocą mini kart z odpowiedzią. Dzięki temu odpowiedź jest łatwiejsza do odczytania.
+W Composer'ze można też wykorzystać LUIS poznany w poprzednim laboratorium do analizy intencji i parametrów wypowiedzi. Dzięki temu nie trzeba tworzyć bazy z każdą możliwą wypowiedzią użytkownika tylko określane jest prawdopodobieństwo danej intencji i wartości parametrów.
+
+Emulator pokazuje jakie operacje są wykonywane "pod spodem" podczas działania robota jak również pokazuje jak działa sam robot.
+
+### 2.2 Cennik
+
+Samo tworzenie bota w Composerze nic nie kosztuje. Nawet nie trzeba mieć konta na Azure. Płaci się jedynie za LUIS, jeśli się z niego korzysta. Cennik Luisa poniżej:
+
+![CennikLUIS](https://github.com/edsuch21/AI-on-Microsoft-Azure/edit/main/lab1/cennikLU.png)
+
+### 2.3 Use Case
+
+Zastosowanie takie samo jak w przypadku punktu 1.3
 
 
