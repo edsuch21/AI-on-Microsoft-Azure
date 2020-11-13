@@ -12,13 +12,13 @@ Jednym kliknięciem został wytrenowany serwis i następnie przetestowany przeze
 
 Następnym krokiem jest udostępnienie serwisu i przesłanie go do nowostworzonego bota. Po szybkim stworzeniu bota następuje jego test jak na zdjęciu poniżej.
 
-![TestBota](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/main/lab2/TestBota.png)
+![TestBota](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/TestBota.png)
 
 
 Ostatnim korkiem jest uruchomienie bota na stronie internetwej, co następuje przez prostą komendę html korzystającą ze specjalnego klucza dostępu do bota, który jest dostępny w zakładce Channel w Web App Bot.
 Efektem laboratorium jest strona internetowa działająca jak na zdjęciu poniżej.
 
-![TestStrony](https://raw.githubusercontent.com/AI-on-Microsoft-Azure/main/lab2/TestStrony.png)
+![TestStrony](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab2/TestStrony.png)
 
 ### 1.2 Cennik
 
