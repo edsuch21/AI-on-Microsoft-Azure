@@ -12,6 +12,9 @@ W przypadku tłumaczeń można jednocześnie tłumaczyć na kilka wybranych jęz
 
 Koszt usługi Speech:
 
+![CennikSpeech1](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab3/Speech1.png)
+![CennikSpeech2](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab3/Speech2.png)
+
 
 
 
