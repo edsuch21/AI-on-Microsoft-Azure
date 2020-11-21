@@ -155,13 +155,13 @@
           ]
         }
       ],
-      "condition": "=#covidSymptomes.Score > 0.7"
+      "condition": "=#covidSymptomes.Score > 0.6"
     },
     {
       "$kind": "Microsoft.OnIntent",
       "$designer": {
         "id": "lwheyC",
-        "name": "userSymptoms"
+        "name": "userSymptomes"
       },
       "intent": "userSymptoms",
       "actions": [
@@ -223,7 +223,7 @@
           ]
         }
       ],
-      "condition": "=#userSymptomes.Score > 0.7"
+      "condition": "=#userSymptoms.Score > 0.6"
     },
     {
       "$kind": "Microsoft.OnIntent",
@@ -282,7 +282,7 @@
           ]
         }
       ],
-      "condition": "=#COVIDtest.Score > 0.7"
+      "condition": "=#COVIDtest.Score > 0.6"
     }
   ],
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
