@@ -1,0 +1,291 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "$designer": {
+      "name": "QnAMakerLUISSample-1",
+      "description": "",
+      "id": "6GgAke"
+    }
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "recognizer": "QnAMakerLUISSample-1.lu.qna",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "name": "Welcome message"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "266608",
+                    "name": "Send a response"
+                  },
+                  "activity": "${SendActivity_266608()}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "242409"
+      },
+      "condition": "#Help.Score >= 0.6",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "kXMqXU"
+          },
+          "activity": "${SendActivity_kXMqXU()}"
+        }
+      ],
+      "intent": "Help"
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "777383"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "yw7edg"
+          },
+          "activity": "${SendActivity_yw7edg()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Vn2M2M",
+        "name": "covidSymptomes"
+      },
+      "intent": "covidSymptomes",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "w0SEfT"
+          },
+          "activity": "${SendActivity_w0SEfT()}"
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "qpHxZD"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_qpHxZD()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "style": "suggestedAction",
+          "recognizerOptions": {
+            "recognizeOrdinals": true,
+            "recognizeNumbers": true,
+            "noAction": true
+          },
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOr": "yes or no",
+            "inlineOrMore": ", or ",
+            "inlineSeparator": ", "
+          },
+          "property": "$symptoms",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "outputFormat": "value",
+          "defaultValue": "false"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "pTRH73"
+          },
+          "condition": "=$symptoms=='yes'",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "UEV4uz"
+              },
+              "activity": "${SendActivity_UEV4uz()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "4gdcKj"
+              },
+              "activity": "${SendActivity_4gdcKj()}"
+            }
+          ]
+        }
+      ],
+      "condition": "=#covidSymptomes.Score > 0.7"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "lwheyC",
+        "name": "userSymptoms"
+      },
+      "intent": "userSymptoms",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "YXEkjT"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_YXEkjT()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": false,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "$covid",
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "recognizerOptions": {
+            "recognizeOrdinals": true,
+            "recognizeNumbers": true
+          },
+          "style": "heroCard",
+          "outputFormat": "value"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "j0YDhw"
+          },
+          "condition": "=$covid=='yes'",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Z3VqpS"
+              },
+              "activity": "${SendActivity_Z3VqpS()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "nElXaK"
+              },
+              "activity": "${SendActivity_nElXaK()}"
+            }
+          ]
+        }
+      ],
+      "condition": "=#userSymptomes.Score > 0.7"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "elqJtv",
+        "name": "COVIDtest"
+      },
+      "intent": "COVIDtest",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IArrTY"
+          },
+          "activity": "${SendActivity_IArrTY()}"
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "4f27Cq"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_4f27Cq()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or "
+          },
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "style": "heroCard",
+          "property": "$commercial"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "ZXrcBn"
+          },
+          "condition": "=$commercial == 'yes' ",
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "iSUp6f"
+              },
+              "activity": "${SendActivity_iSUp6f()}"
+            }
+          ]
+        }
+      ],
+      "condition": "=#COVIDtest.Score > 0.7"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
+  "generator": "QnAMakerLUISSample-1.lg",
+  "id": "QnAMakerLUISSample-1"
+}
