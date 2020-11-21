@@ -21,3 +21,6 @@ Wyzwalazcz COVIDtest uaktywania się gdy użytkownik pyta o testy na koronawirus
 
 kod znajduje się w tym folderze w pliku bot.json
 
+## 5. Link do filmiki na YT
+
+https://www.youtube.com/watch?v=O6n4wpGkyRE&feature=youtu.be
