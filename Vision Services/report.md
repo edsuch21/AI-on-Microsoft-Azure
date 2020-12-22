@@ -20,8 +20,7 @@ Usługa ta pozwala również na wykrywanie tekstow na obrazach. Nie tylko liter 
 
 ### Cennik
 
-![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/lab1/Vision\ Services/Computer\ Vision\ API.png)
-
+![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/Vision%20Services/Computer%20Vision%20API.png)
 
 ## 2. Custom Vision
 
