@@ -34,7 +34,7 @@ Można wytrenować model do rozróżniania charakteru pisma studentów i sprawdz
 
 ### Cennik
 
-![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/Vision%20Services/Computer%20Vision%20API.png)
+![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/Vision%20Services/Custom%20Vison.png)
 
 
 ## 3. Video Indexer
