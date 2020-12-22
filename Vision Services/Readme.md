@@ -38,3 +38,14 @@ Można wytrenować model do rozróżniania charakteru pisma studentów i sprawdz
 
 
 ## 3. Video Indexer
+
+### Opis
+
+Servis ten służy do analizy filmów. Dzięki niemu istnieje możliwość wysukania wycinku z filmu gdzie pojawia się nawiazanie do iteresującego nas hasła. Cały film może zostać poddany analizie i w wyniku można otrzymać co pojdwiło sie w fimie i których odcinkach czasu. W filmach istnieje możliwość modyfickajcji listy haseł, które zostały wykryte dla danego filmu, gdy uważamy np, że dane hasło nie pasuje do filmu. Istnieje też możliwość wybory miniatury dla danego filmu. Usługa dostępna również przez API, więc może być wykorzystywana w różnych środowiskach.
+
+### Zastosowania
+
+Gdy mamy długi film możemy szybko wyszukać to czego w nim szukamy. Można np. przeprowadzić badanie ile motorów przejeżdża daną ulicą w ciągu doby.
+
+### Cennik
+
