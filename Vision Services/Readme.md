@@ -49,3 +49,4 @@ Gdy mamy długi film możemy szybko wyszukać to czego w nim szukamy. Można np.
 
 ### Cennik
 
+![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/Vision%20Services/Video%20Indexer.png)
