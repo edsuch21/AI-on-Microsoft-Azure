@@ -1,4 +1,4 @@
-# Sprawozdanie
+# Sprawozdanie - teoria
 
 ## 1. Copmuter Vision API
 
