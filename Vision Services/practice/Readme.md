@@ -4,7 +4,7 @@
 
 Mój program umożliwia klasyfikację charateru pisma do danej osoby. Docelowo myślałem, żeby to był serwis pomocny dla wykładowców. Mamy grupę studentów, których mamy próbki pisma np. z kartówki z zajęć. Zdaża się, że studenci zamieniają się pracami na kolokwium i mądry student wypełnia prace kolegów. Biedy wykładowca mając 300 prac do sprawdzenia nie jest w stanie wykryć oszystwa i tu przychodzi rozwiązanie które proponuję.
 
-##Rozwiązanie
+## Rozwiązanie
 
 * pobranie niewielkiej próbki pisma od 3 osób na takim samym papierze i pisane tym sammym długopisem
 * zeskanowanie tesktu i podzielenie go na wycinki pojedynczych słow
