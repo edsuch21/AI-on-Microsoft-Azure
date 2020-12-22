@@ -24,4 +24,17 @@ Usługa ta pozwala również na wykrywanie tekstow na obrazach. Nie tylko liter 
 
 ## 2. Custom Vision
 
+### Opis
+
+Dzięki temu serwisowi istnieje możliwość trenowania klasyfikatorów (lub detektorów) obrazów na bardzo małym zbiorze danych (od 5 obrazów w każdej klasie). Można też łatwo dotrenowywać model dodając nowe dane treningowe bez konieczności trenowania całego modelu od początku. Ten serwis daje bardzo dobre wyniki a trenowanie odbywa się w przejrzystej aplikacji webowej. Usługa ma też opcje połaczenia przez endpointy, więc łatwo z niej korzytsać w dowolnym środowisku. Dzięki API można zarówno trenować jak i testować modele.
+
+### Zastosowania
+
+Można wytrenować model do rozróżniania charakteru pisma studentów i sprawdzać czy ich praca jest samodzielna.
+
+### Cennik
+
+![](https://raw.githubusercontent.com/edsuch21/AI-on-Microsoft-Azure/main/Vision%20Services/Computer%20Vision%20API.png)
+
+
 ## 3. Video Indexer
